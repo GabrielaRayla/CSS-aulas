@@ -1,0 +1,17 @@
+main{
+    height: 100vh;
+    width: 100%;
+    border: 5px solid red ;
+}
+p{
+    height: 300px;
+    width: 300px;
+    border: 5px solid blue;
+    padding: 20px ;
+}
+div{
+    height: 100%;
+    width: 500px;
+    border: 5px solid green;
+    margin-top: 50px;
+}
