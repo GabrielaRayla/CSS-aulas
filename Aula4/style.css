@@ -1,0 +1,127 @@
+.static #div1{
+    position:static;
+    background-color:blue ;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;  
+}
+
+.static #div2{
+    position: static;
+    background-color: orange;
+    width: 80px;
+    height: 80px;
+}
+
+.static > p{
+    font-weight:bold;
+    display:inline;
+    position:relative;
+    left: 100px;
+    top:10px;
+}
+.static{
+    width: 300px;
+    height:200px;
+}
+
+
+/*Relative */
+.relative {
+    margin:0px;
+    position: relative;
+    width: 300px;
+    height:200px;
+}
+.relative #div3{
+    position:relative;
+    top:30px;
+    width: 80px;
+    height: 80px;
+    background-color: orange;    
+}
+
+.relative #div4{
+    position:relative;
+    left: 110px;
+    top: 30px;
+    width: 80px;
+    height: 80px;
+    background-color: green;    
+}
+
+.relative > p{
+    font-weight:bold;
+    display:inline;
+    position:relative;
+    left: 100px;
+    top: 40px;
+}
+/*Absolute*/
+.absolute{
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.absolute #div5{
+    position: absolute;
+    top: 50px;
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+}
+.absolute #div6{
+    position: absolute;
+    top: 95px;
+    left: 55px;
+    width: 80px;
+    height: 80px;
+    background-color:green;
+}
+.absolute > p{
+    font-weight:bold;
+    display:inline;
+    position:relative;
+    left: 100px;
+    top: 60px;
+}
+/*Fixed*/
+.fixed{
+    margin: 0px;
+    top: 210px;
+    left: 350px;
+    width: 300px;
+    height: 200px;
+}
+
+.fixed > p{
+    font-weight:bold;
+    display:inline;
+    position:relative;
+    left: 40px;
+    top: 75px;
+}
+
+.fixed #div7{
+    position: fixed;
+    top: 500px;
+    left: 550px;
+    width: 80px;
+    height: 80px;
+    background-color: green;
+}
+.border{
+    border: solid 2px blue;
+}
+/*Fazendo a borda externa e justificando o conteúdo*/
+#divmaior{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:700px;
+    height: 700px;
+}
+.divmeio{
+    display: flex;
+    justify-content: space-evenly;
+}
