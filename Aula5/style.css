@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 12vh;
+    background-color: rgb(15, 15, 65);
+    color:rgb(245, 237, 227);
+    position: fixed;
+    border-bottom: solid 2px rgb(61, 61, 225);
+}
+/* logo do header */
+.rate {
+    position: relative;
+    top: 15px;
+    left: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#rate{
+    color:rgb(214, 227, 235);
+    font-size: 30px;
+}
+
+#movies{
+    color:rgb(39, 186, 244);
+    font-size: 30px;
+}
+
+#com{
+    color: rgb(214, 227, 235);
+    font-size: 20px;
+}
+
+header > img{
+    width: 45px;
+    position: absolute;
+    right: 60px;
+    top:25px;
+}
+
+ul{
+    position: absolute;
+    top:15px;
+    left: 33vw;
+
+}
+
+ul li{
+    display: inline-block; 
+    text-align: center;
+    padding: 20px;
+}
+ul li:hover{
+    background-color: rgb(19, 19, 81); 
+}
+nav li a{
+    list-style-type: none;
+    padding: 0;
+    color: rgb(214, 227, 235);
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+figure > #imgcapa{
+    width: 99vw;
+    height: auto;
+}
+    
+main{
+    background-color: black;
+}
+
+h2{
+    color: antiquewhite;
+    font-weight:100;
+    height: 70px;
+    padding-left: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+/* ajuste de posição da seção 1 */
+.sugestao{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+/* ajuste de posição da seção 2 */
+.filmes{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+/* ajuste de posição das imagens */
+.filmes1 img, .filmes2 img{
+    width: 260px;
+    height: 360px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.filmes1 img:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+.filmes2 img:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+
+
