@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.paragrafo{
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    color: rgb(84, 84, 84);
+}
+
+@font-face {
+    font-family: "Play";
+    src: url(fonts/Play-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2{
+    font-family: "Play", Times, serif;
+    font-size: 16px;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+ol li{
+    float: left; 
+    font-size: 16px;
+    word-spacing: 5px;
+    margin: 0px 30px;
+}
+
+table{
+    border: solid 2px black;
+    position: relative;
+    top:30px;
+}
+
+tr, th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: rgba(193, 158, 158, 0.5);
+}
