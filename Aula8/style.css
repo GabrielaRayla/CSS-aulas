@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* usei o root para declarar as variáveis */
+:root{
+    --color-header-footer: #11b2c7;
+    --color-images: #f1b52a;
+}
+
+/* altera no header, main e footer */
+body{
+    background-color:#9fe7ed;
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    width:100vw;
+    height: 100vh;
+}
+
+/* altera o header e o footer */
+.header-footer{
+    background:var(--color-header-footer);
+    color: white;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 95vw;
+    height: 10vh; 
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    width: 95vw;
+    height: 65vh;
+}
+
+
+aside{
+    background-color: #11c246;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 28vw;
+}
+
+aside p{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    background-color: rgb(236, 130, 16);
+
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+
+    width:65vw;
+
+}
+
+/* tamanho e estilização dos textos da header, main e footer */
+.font{
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    align-items: center;
+
+    height: 20%;
+}
+
+/*elemento pai das imagens */
+#figure{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+    width: 100%;
+    height: 60%;
+}
+
+#figure > img {
+    max-width: 25%;
+    max-height: 70%;
+}
+
+/* Responsividade */
+@media (max-width: 768px),(max-width:820px){
+
+    main{
+        height: 70vh;
+        gap:20px;
+    }
+
+    main > aside, main >article{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        
+        width: 95vw;        
+    }
+
+    .font{
+        color: white;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        display: flex;
+        align-items: center;
+    
+        height: 15%;
+    
+    }
+}
+
+
