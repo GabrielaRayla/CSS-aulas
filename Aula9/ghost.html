@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost9</title>
+    <style>
+        .ghost{
+            height: 200px;
+            margin: 25px;
+            position: relative;
+            width: 200px;
+        }
+        .head{
+            background: red;
+
+            height: 100px;
+            position: relative;
+            width: 152px;
+            border-top-left-radius: 80px;
+            border-top-right-radius: 80px;
+        }
+
+        .eye,
+        .eyeback {
+            position: relative;
+            border-radius: 100%;
+            -moz-border-radius: 100%;
+            -webkit-border-radius: 100%;
+        }
+
+        .eyeback {
+            background: #FFF;
+            height: 50px;
+            width: 50px;
+
+        }
+        .eyeback:last-child {
+            float: right;
+            margin: 50px 25px 0 0;
+        }
+
+        .eyeback:first-child{
+                float: left;
+                margin: 50px 0 0 25px;
+        }
+        
+        .eye {
+            background: #0d32d7;
+            height: 25px;
+            margin:10%;
+            width: 25px;
+        }
+
+        .legs {
+            border-right: 38px solid red;
+            border-left: 38px solid red;
+            border-bottom: 40px solid transparent;
+            display: block;
+            float: left;
+            height: 40px;
+            width: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ghost">
+        <div class="head">
+            <div class="eyeback">
+                <div class="eye"></div>
+            </div>
+            <div class="eyeback">
+                <div class="eye"></div>
+            </div>
+        </div>
+        <div class="legs"></div>
+        <div class="legs"></div>
+    </div>    
+</body>
+</html>
