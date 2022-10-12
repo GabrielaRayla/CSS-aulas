@@ -35,10 +35,16 @@ header{
 }
 
 header > img{
-    width: 45px;
+    width: 60px;
     position: absolute;
     right: 60px;
-    top:25px;
+    top: 20px;
+    padding: 10px;
+}
+
+header >img:hover{
+    background-color: rgb(24, 24, 104);
+    border-radius: 50px;
 }
 
 ul{
